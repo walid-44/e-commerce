@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { allCategories } from "../../trk/slises/itemsCategories";
 import { categories } from "../../trk/slises/productCategories";
 
-const Index = () => {
+const Products = () => {
   const [active, setActive] = useState(0);
   const [categoriesData, setCategoriesData] = useState("all");
   const dispatch = useDispatch();
@@ -42,4 +42,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Products;

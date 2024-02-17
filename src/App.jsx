@@ -8,7 +8,8 @@ import LoveProduct from "./pages/loveProduct/LoveProduct";
 import Aside from "./components/backet/ProductBacket";
 import Cart from "./pages/cart/Cart";
 import Footer from "./components/footer/Footer";
-import Index from "./pages/products";
+import Products from "./pages/products/Products";
+
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Index/>} />
+          <Route path="/products" element={<Products/>} />
           <Route path="/products/:id" element={<Details />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/loveProduct" element={<LoveProduct />} />
