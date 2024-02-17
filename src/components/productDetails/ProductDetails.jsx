@@ -1,9 +1,9 @@
 import { Col, Row } from "react-bootstrap";
 import { formatPrice, priceDiscount } from "../../utils/Price";
-import AddCart from "../addCart/AddCart";
 import Love from "../love/Love";
 import "./productDetails.css";
 import ProductDetailsSlide from "../productDetailsSlide/ProductDetailsSlide";
+import AddCart from "../addCart/AddCart";
 
 const ProductDetails = ({ product }) => {
   return (
