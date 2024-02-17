@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 
 import Loading from "../../components/loading/Loading";
 import { fetchPreview } from "../../trk/slises/previewProduct";
-import ProductDetils from "../../components/productDetails/ProductDetails";
+import ProductDetails from "../../components/productDetails/ProductDetails";
 
 const Details = () => {
   const { id } = useParams();
@@ -21,7 +21,7 @@ const Details = () => {
   return (
     <>
       {!isLoading &&  <Loading />}
-      <ProductDetils product={data} />
+      <ProductDetails product={data} />
     </>
   );
 };

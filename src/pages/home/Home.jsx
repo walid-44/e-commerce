@@ -3,8 +3,8 @@ import Bennar from "../../components/baner/Bennar";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAllProducts } from "../../trk/slises/allProducts";
 import { Container, Pagination, Row } from "react-bootstrap";
-import ProductCart from "../../components/cart/ProductCart";
 import './home.css'
+import ProductCart from "../../components/productcart/ProductCart";
 
 const Home = () => {
   const allproduct = useSelector((state) => state.allProducts);

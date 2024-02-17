@@ -7,7 +7,6 @@ import { fetchPreview, openPreview } from "../../trk/slises/previewProduct";
 import { Tooltip } from "react-tooltip";
 import { formatPrice, priceDiscount } from "../../utils/Price";
 import Love from "../love/Love";
-// import { addProductInBacket } from "../../trk/slises/cartSlice";
 import AddCart from "../addCart/AddCart";
 
 const ProductCart = ({ product }) => {

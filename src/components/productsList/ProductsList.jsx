@@ -1,9 +1,9 @@
 import {useDispatch, useSelector } from "react-redux";
-import ProductCart from "../cart/ProductCart";
 import { useEffect } from "react";
 import { fetchAllProducts } from "../../trk/slises/allProducts";
 import { Row } from "react-bootstrap";
 import Loading from "../loading/Loading";
+import ProductCart from "../productcart/ProductCart";
 
 
 const ProductsList = ({categoriesData}) => {
