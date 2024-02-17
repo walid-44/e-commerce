@@ -2,7 +2,7 @@ import { ModalBody } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
 import { useDispatch, useSelector } from "react-redux";
 import { closePreview } from "../../trk/slises/previewProduct";
-import ProductDetils from "../productDetails/productDetils";
+import ProductDetails from "../productDetails/ProductDetails";
 
 const Preview = () => {
   const preview = useSelector((state) => state.previewProduct);
@@ -16,7 +16,7 @@ const Preview = () => {
     >
       <Modal.Header closeButton></Modal.Header>
       <ModalBody>
-        <ProductDetils product={preview.data} />
+        <ProductDetails product={preview.data} />
       </ModalBody>
       
     </Modal>

@@ -2,10 +2,10 @@ import { Col, Row } from "react-bootstrap";
 import { formatPrice, priceDiscount } from "../../utils/Price";
 import AddCart from "../addCart/AddCart";
 import Love from "../love/Love";
-import "./productDetils.css";
-import ProductDetailsSlide from "../productDetilsSlide/ProductDetailsSlide";
+import "./productDetails.css";
+import ProductDetailsSlide from "../productDetailsSlide/ProductDetailsSlide";
 
-const ProductDetils = ({ product }) => {
+const ProductDetails = ({ product }) => {
   return (
     <div className="product-detils">
       <Row xs={1} lg={2}>
@@ -41,4 +41,4 @@ const ProductDetils = ({ product }) => {
   );
 };
 
-export default ProductDetils;
+export default ProductDetails;
