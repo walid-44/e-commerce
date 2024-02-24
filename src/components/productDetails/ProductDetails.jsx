@@ -32,7 +32,6 @@ const ProductDetails = ({ product }) => {
           </div>
           <div className="love-details d-flex  justify-content-between align-items-center mt-5">
             <AddCart product={product} />
-
             <Love product={product} />
           </div>
         </Col>

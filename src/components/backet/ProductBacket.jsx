@@ -33,7 +33,7 @@ const ProductBacket = () => {
         ) : (
           <Offcanvas.Body>
             <div className="d-flex justify-content-end">
-              <Button variant="primary" onClick={handleView}>
+              <Button className="btn-view" variant="success" onClick={handleView}>
                 View cart
               </Button>
             </div>

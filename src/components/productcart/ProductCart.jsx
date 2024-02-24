@@ -18,7 +18,7 @@ const ProductCart = ({ product }) => {
   };
 
   return (
-  <Col  sm={6} lg={4} xl={3} className="my-1">
+  <Col   sm={6} lg={4} xl={3} className="my-1">
       <Card className="card-hover overflow-hidden  position-relative">
         <div className="image overflow-hidden position-relative">
           <Card.Img variant="top" src={product.thumbnail} alt={product.title} />

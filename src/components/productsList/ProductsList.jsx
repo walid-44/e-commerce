@@ -18,7 +18,7 @@ const ProductsList = ({categoriesData}) => {
   
   return (
     <Row>
-      {cate.isLoading && <div className="position-relative mh-100"><Loading /></div> }
+      {cate.isLoading && <Row className="position-relative"><Loading /></Row> }
       {categoriesData === "all" && allcate.map((product) => (
         <ProductCart key={product.id} product={product} />
       ))}

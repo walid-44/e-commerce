@@ -14,8 +14,8 @@ const LoveProduct = () => {
   return (
     <Row>
       {productLove.length === 0 ? (
-        <div>
-          <p className="impty-list">
+        <div className="position-relative h-75">
+          <p className="text-center my-5">
             NO Products Is List{" "}
             <Button variant="success" size="sm" onClick={() => navigate("/products")}>
               You Can Shoping Now{" "}
