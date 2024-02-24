@@ -2,7 +2,6 @@ import { Button, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { clear } from "../../trk/slises/loveProduct";
 import { useNavigate } from "react-router-dom";
-import "./loveProduct.css";
 import ProductCart from "../../components/productcart/ProductCart";
 
 const LoveProduct = () => {
