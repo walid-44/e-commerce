@@ -3,7 +3,7 @@ import { formatPrice, priceDiscount } from "../../utils/Price";
 import Love from "../love/Love";
 import "./productDetails.css";
 import ProductDetailsSlide from "../productDetailsSlide/ProductDetailsSlide";
-import AddCart from "../addCart/AddCart";
+import AddCart from "../add/AddCart";
 
 const ProductDetails = ({ product }) => {
   return (

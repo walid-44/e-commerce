@@ -16,10 +16,10 @@ const LoveProduct = () => {
       {productLove.length === 0 ? (
         <div className="position-relative h-75">
           <p className="text-center my-5">
-            NO Products Is List{" "}
+            NO Products Is List
             <Button variant="success" size="sm" onClick={() => navigate("/products")}>
-              You Can Shoping Now{" "}
-            </Button>{" "}
+              You Can Shopping Now
+            </Button>
           </p>
         </div>
       ) : (

@@ -29,7 +29,6 @@ const Home = () => {
   return (
     <>
       <Bennar />
-
       <div className="all-product">
         <Container>
           <h2 className="mb-5">All Products</h2>

@@ -7,7 +7,7 @@ import { fetchPreview, openPreview } from "../../trk/slises/previewProduct";
 import { Tooltip } from "react-tooltip";
 import { formatPrice, priceDiscount } from "../../utils/Price";
 import Love from "../love/Love";
-import AddCart from "../addCart/AddCart";
+import AddCart from "../add/AddCart";
 
 const ProductCart = ({ product }) => {
   const dispatch = useDispatch();
