@@ -1,7 +1,7 @@
 https://commerceapp-site.netlify.app   view
 
 
-ُE-Commerce Web Site
+E-Commerce Web Site
 #Features
 Fetching data from remote api
 Add products to the favorite list
