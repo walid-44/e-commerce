@@ -9,6 +9,10 @@ import Aside from "./components/backet/ProductBacket";
 import Cart from "./pages/cart/Cart";
 import Footer from "./components/footer/Footer";
 import Products from "./pages/products/Products";
+import Singin from "./auth/Singup";
+import Login from "./auth/Login";
+import Reset from "./auth/Reset";
+import ShowState from "./components/show/ShowState";
 
 
 function App() {
@@ -18,13 +22,16 @@ function App() {
     <Aside />
       <Container className="pt-2">
       <Preview />
-      
+      <ShowState />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products/>} />
           <Route path="/products/:id" element={<Details />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/loveProduct" element={<LoveProduct />} />
+          <Route path="/sing-up" element={<Singin />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/reset" element={<Reset />} />
           <Route path="*" element="Erorr" />
         </Routes>
       </Container>

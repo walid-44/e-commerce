@@ -13,7 +13,7 @@ const LoveProduct = () => {
   return (
     <Row>
       {productLove.length === 0 ? (
-        <div className="position-relative h-75">
+        <div className="position-relative hvh-50 d-flex justify-content-center align-items-center">
           <p className="text-center my-5">
             NO Products Is List
             <Button variant="success" size="sm" onClick={() => navigate("/products")}>

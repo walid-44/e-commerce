@@ -5,6 +5,7 @@ import loveProduct from "./slises/loveProduct";
 import itemsCategories from "./slises/itemsCategories";
 import categoriesSlice from "./slises/productCategories"
 import cartSlice from "./slises/cartSlice";
+import authSlice from "./slises/auth"
 
 
 export const store =  configureStore({
@@ -15,5 +16,6 @@ export const store =  configureStore({
     itemsCategories : itemsCategories ,
     categoriesSlice : categoriesSlice ,
     cartSlice : cartSlice ,
+    auth : authSlice,
   }
 })

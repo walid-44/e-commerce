@@ -9,3 +9,8 @@
   cursor: pointer;
   
 }
+@media(max-width : 545px) {
+  .table_cart{
+    overflow-x: scroll;
+}
+}

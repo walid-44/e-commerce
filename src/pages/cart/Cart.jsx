@@ -22,7 +22,7 @@ const Cart = () => {
     <>
       <div className="text-center py-5 fs-1 shadow">Shooping Cart</div>
       {cart.cartData.length === 0 ? <Empty /> : <div className="table-responsive overflow-auto shadow rounded mt-5">
-        <table className="w-100 ">
+        <table className="w-100 table_cart ">
           <thead>
             <tr className="text-center">
               <th>Image</th>

@@ -3,7 +3,7 @@ import Bennar from "../../components/baner/Bennar";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAllProducts } from "../../trk/slises/allProducts";
 import { Container, Pagination, Row } from "react-bootstrap";
-import './home.css'
+import "./home.css";
 import ProductCart from "../../components/productcart/ProductCart";
 
 const Home = () => {
@@ -37,14 +37,16 @@ const Home = () => {
               <ProductCart key={product.id} product={product} />
             ))}
             <div>
-              <Pagination className="d-flex justify-content-center mt-4" size="lg">
+              <Pagination
+                className="d-flex justify-content-center mt-4"
+                size="lg"
+              >
                 {Array.from({ length: totalPages }, (_, index) => (
                   <Pagination.Item
-                  className="overflow-hidden border-0"
+                    className="overflow-hidden border-0"
                     key={index + 1}
                     active={index + 1 === currentPage}
                     onClick={() => handlePageChange(index + 1)}
-                    
                   >
                     {index + 1}
                   </Pagination.Item>

@@ -11,11 +11,12 @@
 }
 .users .nav-link{
   width: fit-content;
+  font-weight: 600;
 }
 .users .nav-link.active , 
 .users .nav-link:hover {
   color: green !important;
-  font-weight: 600;
+  
 } 
 li a{
     color: var(--color_black);

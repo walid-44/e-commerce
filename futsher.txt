@@ -1,0 +1,8 @@
+1- registration
+2- login
+3- authentication
+4- authorization
+5- mail integration
+6- online payment toollhtegration
+7- using real api
+8- cruds operations
